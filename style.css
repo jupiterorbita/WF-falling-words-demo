@@ -1,0 +1,72 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px dotted red; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+    /* margin-top: 5rem; */
+    width: 500px;
+    background-color: antiquewhite;
+    /* display: block;
+    margin: 0 auto; */
+}
+
+#canvas {
+    display: block;
+    /* margin: 0 auto; */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 400px;
+}
+
+#score {
+    padding: 10px;
+    background-color: steelblue;
+    display: inline-block;
+    color: white;
+}
+
+.img1 {
+    height: 60px;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    width: 500px
+}
+.img2 {
+    height: 60px;
+    position: absolute;
+    top: 340px;
+    left: 60px;
+}
+
+input {
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    font-size: 12pt;
+    transition: 100ms;
+}
+
+input::placeholder {
+    color: #3333337b;
+    font-size: 12pt;
+}
+
+input:focus {
+    border: 0 solid #333;
+    transition: 200ms;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
